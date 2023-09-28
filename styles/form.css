@@ -1,0 +1,18 @@
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #201b2c;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
