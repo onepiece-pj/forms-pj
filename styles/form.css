@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
 main {
     width: 100vw;
@@ -24,8 +25,10 @@ body {
     flex-direction: column;
 }
 .left-login > h1 {
-    color: #77ffc0;
+    color: #01f784;
     font-size: 3vw;
+    font-family: 'Share Tech Mono', monospace;
+    
 }
 .left-login-img {
     width: 35vw;
@@ -63,9 +66,25 @@ body {
     color: #f0f0f0;
     margin-bottom: 10px;    
 }
+.textfield >  {
+    color: #77ffc0;
+}
 .textfield > input::placeholder{
     color: #f0ffff94;
 
+}
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #170332;
+    box-shadow: 0px 10px 40px 12px;
+    font-family: 'Rubik', sans-serif;
 }
 
 @media (max-width: 950px) {
@@ -89,5 +108,12 @@ body {
     .right-login {
         height: auto;
         width: 100%;
+    }
+    .left-login-img {
+        width: 60vw;
+    }
+    .card-login {
+        width: 60%;
+        margin-left: 21.5px;
     }
 }
